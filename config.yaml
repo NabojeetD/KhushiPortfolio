@@ -2,7 +2,7 @@ baseURL: # todo: change site url.
 title: Khushi's Photography # todo: change site name.
 defaultContentLanguage: 'en'
 theme: eternity
-enableRobotsTXT: true
+enableRobotsTXT: false
 #googleAnalytics: '' # todo: set your analytics id.
 style="font-family: Georgia;"
 params:
