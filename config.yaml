@@ -1,4 +1,6 @@
-baseURL: https://inquisitive-melomakarona-fb2da5.netlify.app/ # todo: change site url.
+
+baseURL: https://knpphotos.com # todo: change site url.
+
 title: Khushi's Photography # todo: change site name.
 defaultContentLanguage: 'en'
 theme: eternity
