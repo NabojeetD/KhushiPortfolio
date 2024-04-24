@@ -1,4 +1,5 @@
 ---
+draft: false
 weight: 3
 images:
 - /images/story_manu_birthday_2023.jpeg 

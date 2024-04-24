@@ -1,4 +1,5 @@
 ---
+draft: false
 weight: 3
 images:
 - /images/travel_india_2020 Large.jpeg

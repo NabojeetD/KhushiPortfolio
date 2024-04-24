@@ -1,4 +1,5 @@
 ---
+draft: false
 images:
 - /images/about.png
 title: about

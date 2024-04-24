@@ -1,4 +1,5 @@
 ---
+draft: false
 weight: 3
 images:
 - /images/portait_gianna_2022.jpeg
