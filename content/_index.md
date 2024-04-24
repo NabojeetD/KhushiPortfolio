@@ -1,7 +1,7 @@
 ---
 draft: false
 desc:
-- The website of the Khushi Patel
+- Welcome to my Portfolio
 ---
 </style>
   body {
