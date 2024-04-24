@@ -1,0 +1,84 @@
+baseURL: # todo: change site url.
+title: Khushi's Photography # todo: change site name.
+defaultContentLanguage: 'en'
+theme: eternity
+enableRobotsTXT: true
+#googleAnalytics: '' # todo: set your analytics id.
+style="font-family: Georgia;"
+params:
+  image: /images/banner.png
+  logo: logo.png # todo: add your custom logo to static/
+  subtitle: Capture life. # todo: change default subtitle for your website.
+  copyright: All rights reserved. # todo: set your copyright type.
+  author: Khushi Patel # todo: set your full name.
+  dontShowSource: false # please, do not do this :)
+  portfolio:
+    columns:
+      desktop:
+        portraiture: 4
+        archive: 8
+        travel: 2
+        fashion: 6
+        story telling: 7
+        default: 3
+        product: 5
+      mobile:
+        default: 2
+        archive: 3
+        portraiture: 1
+        product: 4
+  socials:
+    # todo: change these links.
+    - icon: 'far fa-envelope fa-lg'
+      url: 'mailto:khushipatel1738@gmail.com'
+      landing: true
+    - icon: 'fab fa-instagram fa-lg'
+      url: 'https://www.instagram.com/khushi.photos_/'
+    - icon: 'fab fa-linkedin-in fa-lg'
+      url: 'https://www.linkedin.com/in/khushi-patel-1b0662262/'
+  homepage: "/work" # homepage link, mostly same with menu.main[0]
+  specialPages:
+    - work
+    - archive
+  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  disableWelcomePageBackground: false # disables the background image on the homepage
+  plausible: '' # todo: set your plausible id.
+  disableRadius: false
+  moveIt: false  # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+menu:
+  main:
+    - name: work
+      url: /work/
+      weight: 1
+    - name: portraiture
+      url: /tags/portraiture/
+      weight: 2
+    - name: travel
+      url: /tags/travel/
+      weight: 3
+    - name: product
+      url: /tags/product/
+      weight: 4
+    - name: story
+      url: /tags/story/
+      weight: 5
+    - name: archive
+      url: /tags/archive/
+      weight: 6
+    - name: about
+      url: /about/
+      weight: 7
