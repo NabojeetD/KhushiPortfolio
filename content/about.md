@@ -46,7 +46,7 @@ hideDate: true
         <br>
         <br>
         <div data-netlify-reaptcha ="true"> </div> 
-        
+        <input type = "submit" value ="Submit" style ="font-size: 18px;"> 
 </form>
 
 
