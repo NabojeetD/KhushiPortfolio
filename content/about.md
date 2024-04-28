@@ -46,13 +46,7 @@ hideDate: true
         <br>
         <br>
         <div data-netlify-reaptcha ="true"> </div> 
-        <html>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <form action="?" method="POST">
-      <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-      <br>
-      <br>
-        <input type="submit" value="Submit" style="font-size: 18px;">
+        
 </form>
 
 
