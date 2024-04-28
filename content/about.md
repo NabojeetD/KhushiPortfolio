@@ -23,7 +23,10 @@ hideDate: true
 
 
 <div align="center">
-    <form method="post" name="Contact"  netlify style="width: 60%;">
+    <form action = "/thankyou" method="post" name="Contact" data-netlify-recaptcha="true" data-netlify="true"  netlify-honeypot = "bot-field" netlify style="width: 60%;" >
+        <p style ="visibility:hidden">
+            <label> Don't Fill This Out If You're Human:" </label> <input name ="bot-field">
+        </p>
         <label for="fname" style="font-size: 18px;">First Name</label><br>
         <input type="text" id="fname" name="firstname" placeholder="Your first name.." style="font-size: 16px; width: 100%;">
         <br>
@@ -41,6 +44,9 @@ hideDate: true
         <label for="message" style="font-size: 18px;">Message</label>
         <br>
         <textarea id="message" name="message" placeholder="Let me know how I can help :)" style="font-size: 16px; height: 200px; width: 100%;"></textarea>
+        <br>
+        <br>
+        <div data-netlify-reaptcha ="true"> </div> 
         <br>
         <br>
         <input type="submit" value="Submit" style="font-size: 18px;">
