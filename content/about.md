@@ -21,7 +21,6 @@ hideDate: true
 
 - **Photo retouching**.
 
-
 <div align="center">
     <form action = "/thankyou" method="post" name="Contact" data-netlify-recaptcha="true" data-netlify="true"  netlify-honeypot = "bot-field" netlify style="width: 60%;" >
         <p style ="visibility:hidden">
