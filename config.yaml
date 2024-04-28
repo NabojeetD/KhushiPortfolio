@@ -81,6 +81,6 @@ menu:
     - name: archive
       url: /tags/archive/
       weight: 6
-    - name: about
-      url: /about/
+    - name: about & contact
+      url: /contact/
       weight: 7
